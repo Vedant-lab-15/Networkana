@@ -1,0 +1,37 @@
+===== Network Traffic Summary =====
+
+Total Packets Captured: 875
+Total TCP Packets: 602
+Total UDP Packets: 198
+Total HTTP Packets: 73
+Total ICMP Packets: 2
+
+Top Source IPs:
+ - 192.168.1.5: 421 packets
+ - 142.250.64.110 (google.com): 112 packets
+ - 104.244.42.1 (twitter.com): 85 packets
+
+Top Destination IPs:
+ - 192.168.1.1 (Router): 388 packets
+ - 93.184.216.34 (example.com): 107 packets
+
+Top Protocols Used:
+ - TCP: 68.8%
+ - UDP: 22.6%
+ - HTTP: 8.3%
+ - ICMP: 0.2%
+
+HTTP Request Methods Detected:
+ - GET: 45
+ - POST: 22
+ - HEAD: 6
+
+Potential Anomalies Detected:
+ - Unusually high traffic to port 81 (Possible custom service or misconfiguration)
+ - HTTP request with suspicious User-Agent string: "sqlmap/1.5.1#stable"
+ - Repeated TCP retransmissions detected from 192.168.1.5 to 93.184.216.34
+
+Packet Capture Duration: 00:01:14
+
+===== End of Report =====
+
